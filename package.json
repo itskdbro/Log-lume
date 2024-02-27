@@ -1,12 +1,43 @@
 {
   "name": "log-lume",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Log-lume library by Keshav Dhawan",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc" ,
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "Console",
+    "Log",
+    "Color",
+    "Style",
+    "Customize",
+    "Output",
+    "Text",
+    "Chroma",
+    "Hue",
+    "Prism",
+    "Spectrum",
+    "Echo",
+    "Print",
+    "Trace",
+    "Lume",
+    "Visibility",
+    "Accessibility",
+    "Enhancement",
+    "Browser",
+    "Development"
+  ],
+  "author": "Keshav Dhawan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itskdbro/Log-lume                                                                                                                 "
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
 }
